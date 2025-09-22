@@ -1,10 +1,11 @@
 import "./App.css";
-import AdminPanel from "./Components/AdminPanel";
+import Sidemenu from "./Components/SideMenu";
+
 
 function App() {
   return (
     <>
-      <AdminPanel />
+      <Sidemenu />
       
     </>
   );

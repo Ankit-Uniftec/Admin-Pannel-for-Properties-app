@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-
-// Import your calculator components
 import ListedProperty from "./ListedProperty";
 import UploadProperty from "./UploadProperty";
+import RequestedProperty from "./RequestedProperty"; 
 
 const Sidemenu = () => {
   const [active, setActive] = useState("Null");
@@ -11,6 +10,7 @@ const Sidemenu = () => {
   const components = {
     "UploadProperty": <UploadProperty/>,
     "ListedProperty": <ListedProperty />,
+    "RequestedProperty": <RequestedProperty/>,
      
     
   };
